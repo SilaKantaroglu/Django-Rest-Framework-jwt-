@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API URL List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #696969;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            width: 100%;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+        li {
+            margin: 1rem;
+            flex: 1 0 21%; /* Adjust this to control the number of items per row */
+            display: flex;
+            justify-content: center;
+        }
+        a{
+        text-decoration: none;
+            color: #000000;
+            font-size: 1.2rem;
+            border: 2px solid #696969;
+            padding: 1rem;
+            border-radius: 6px;
+            transition: background-color 0.3s, color 0.3s;
+            text-align: center;
+            width: 100%;
+        }
+        a:hover {
+            background-color: #696969;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AIRLINES PROJECT</h1>
+    </header>
+    <main>
+        <ul>
+            <li><a href="http://127.0.0.1:8000/api/airlines/">Airlines</a></li>
+
+            <li><a href="http://127.0.0.1:8000/api/airline/">Airlines Operation</a></li>
+
+            <li><a href="http://127.0.0.1:8000/api/aircrafts/">Aircrafts</a></li>
+
+            <li><a href="http://127.0.0.1:8000/api/aircraft/">Aircrafts Operation</a></li>
+
+        </ul>
+    </main>
+</body>
+</html>
